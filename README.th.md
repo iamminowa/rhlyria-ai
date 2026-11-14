@@ -1,8 +1,14 @@
-# Rhlyria AI _(rhlyria-ai)_
+<div align="center">
 
-ผู้ช่วย AI แบบเสียงและข้อความที่โฮสต์เอง ทำงานเป็น Cloudflare Worker ตัวเดียว
+# Rhlyria AI
+
+**ผู้ช่วย AI แบบเสียงและข้อความที่โฮสต์เอง** ทำงานเป็น Cloudflare Worker ตัวเดียว
 
 [English](README.md) · ไทย · [中文](README.zh.md)
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/iamminowa/rhlyria-ai)
+
+</div>
 
 Rhlyria AI ให้คุณคุยกับตัวละคร AI ได้ทั้งด้วยข้อความและเสียง คำตอบแปลเป็นภาษาที่สองและอ่านออกเสียงได้ ตัวละครแสดงเป็นโมเดล 3 มิติแบบ VRM หรือภาพ PNG สองรูปก็ได้ ทุกอย่างทำงานใน Cloudflare Worker ตัวเดียว ทั้งแสดงหน้าเว็บ เก็บการตั้งค่าและประวัติแชท และเรียกผู้ให้บริการโมเดลแทนคุณ คีย์ API จึงไม่ถูกส่งไปที่เบราว์เซอร์
 
