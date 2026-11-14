@@ -1,8 +1,14 @@
-# Rhlyria AI _(rhlyria-ai)_
+<div align="center">
 
-Self-hosted voice and text AI companion running as one Cloudflare Worker.
+# Rhlyria AI
+
+**Self-hosted voice and text AI companion** running as one Cloudflare Worker.
 
 English · [ไทย](README.th.md) · [中文](README.zh.md)
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/iamminowa/rhlyria-ai)
+
+</div>
 
 Rhlyria AI lets you talk with a friendly AI character by text or by voice. Replies can be translated into a second language and spoken aloud, and the character can appear as a 3D VRM model or as two PNG images. Everything runs in one Cloudflare Worker: it serves the web app, stores settings and chat history, and calls the model providers on your behalf, so API keys never reach the browser.
 
