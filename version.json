@@ -1,0 +1,13 @@
+{
+  "major": 2,
+  "version": 0,
+  "pack": 0,
+  "release": "26H2",
+  "notes": [
+    "Open-source release: modular source tree, single-file Worker build",
+    "Configurable language model, speech-to-text and text-to-speech providers",
+    "Interface languages: English (default), Thai, Chinese",
+    "Self-hosted Liquid Glass SDK, no third-party CDN",
+    "Server-side speech-to-text, hold-to-talk Live mode"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "rhlyria-ai",
+  "version": "2.0.0",
+  "description": "Self-hosted voice and text AI companion running as one Cloudflare Worker.",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "ai",
+    "companion",
+    "cloudflare-workers",
+    "openrouter",
+    "tts",
+    "stt",
+    "voice",
+    "chatbot",
+    "vrm",
+    "liquid-glass"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "npm run build && node tests/check-docs.mjs && node tests/api.test.mjs",
+    "dev": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "setup": "npm run deploy && wrangler secret put LLM_API_KEY && wrangler secret put TTS_API_KEY"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "miniflare": "^4.0.0",
+    "wrangler": "^4.45.0"
+  }
+}
