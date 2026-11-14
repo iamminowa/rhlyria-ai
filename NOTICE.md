@@ -11,3 +11,10 @@ Rhlyria AI bundles or vendors the following third-party software. Their license 
 ## React and ReactDOM 18.3.1 (`src/vendor/react.js`, `src/vendor/react-dom.js`)
 
 - Copyright (c) Meta Platforms, Inc. and affiliates. MIT License. Unmodified UMD production builds.
+
+## Material Symbols icons
+
+- Source: Material Symbols by Google, https://fonts.google.com/icons
+- License: Apache License 2.0, full text in THIRD_PARTY/LICENSE-APACHE-2.0.txt
+- Modifications: none
+- This project is not endorsed by or affiliated with Google.
