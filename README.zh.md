@@ -1,8 +1,14 @@
-# Rhlyria AI _(rhlyria-ai)_
+<div align="center">
 
-可自托管的语音与文字 AI 伴侣，以单个 Cloudflare Worker 运行。
+# Rhlyria AI 
+
+**可自托管的语音与文字 AI 伴侣**，以单个 Cloudflare Worker 运行。
 
 [English](README.md) · [ไทย](README.th.md) · 中文
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/iamminowa/rhlyria-ai)
+
+</div>
 
 Rhlyria AI 让你可以通过文字或语音与一个友好的 AI 角色对话。回复可以翻译成第二种语言并朗读出来，角色可以以 3D VRM 模型或两张 PNG 图片的形式出现。一切都运行在一个 Cloudflare Worker 中：它提供网页应用、保存设置和聊天记录，并代你调用模型服务商，因此 API 密钥永远不会传到浏览器。
 
